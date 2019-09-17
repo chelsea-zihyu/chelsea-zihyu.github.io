@@ -1774,15 +1774,15 @@ div.headerbox:not(:first-child) {
 }
 
 .workbanner_lsw{
-  padding:10px;
+  padding:8%;
   min-height: 300px;
 }
 .workbanner_doit{
-  padding:10px;
+  padding:8%;
   min-height: 300px;
 }
 .workbanner_beseyeweb{
-  padding:10px;
+  padding:8%;
   min-height: 300px;
 }
 
