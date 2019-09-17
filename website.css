@@ -63,8 +63,7 @@ body {
 
 .footer{
     padding: 10px;
-    font-size: 0.75rem;
-    color:#323232;
+    
 }
 
 .headerbox{
@@ -99,7 +98,6 @@ body {
 }
 
 .dropdown .dropbtn{
-  font-size:1rem;
   border :none;
   outline:none;
   padding:0px;
@@ -117,10 +115,6 @@ body {
   width: 100%;
 }
 
-.menustyle{
-  font-size:1rem;
-  position: relative;
-}
 
 .headerbox:hover .dropdown-content a {
   color:#323232;
@@ -523,7 +517,7 @@ h2{
 }
 
 h3{
-  font-size: calc(1rem + 0.3vw);
+  font-size: calc(1rem + 0.2vw);
   font-weight: normal;
   margin:4px 0px;
   letter-spacing: calc(0.025rem + 0.025vw);
@@ -864,7 +858,7 @@ h3{
   color:#C6C6C9;
   cursor: pointer;
   text-decoration: none;
-  font-size:12px;
+  font-size:calc(0.75rem + 0.2vw);
 }
 
 .hyperlink:visited{
