@@ -975,6 +975,7 @@ h3{
 .centertitle{
   display: flex;
   margin: 5% 0% 2% 0%;
+  width:100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
