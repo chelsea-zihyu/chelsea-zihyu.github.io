@@ -974,7 +974,6 @@ h3{
 
 .centertitle{
   display: flex;
-  width:100vw;
   margin: 5% 0% 2% 0%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1161,7 +1160,6 @@ h3{
   display:flex;
   width:35%;
   min-height: 100px;
-  margin:5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1271,7 +1269,6 @@ margin:3% 0% 10% 0%;
   display:flex;
   width:60%;
   min-height: 120px;
-  margin:5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
@@ -1422,6 +1419,7 @@ margin:3% 0% 10% 0%;
       flex-wrap: wrap;
   background-color: #ffffff;
   padding: 50px;
+  justify-content: center;
 }
 
 .item{
