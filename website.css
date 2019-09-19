@@ -27,17 +27,17 @@ body {
   max-width: 10vw;
   width: 200px;
   min-width:100px;
-  background-image: url(logo-06.svg);
+  background-image: url(logo_normal.svg);
   min-height: 4vh;
   background-repeat: no-repeat;
   }  
 
 .logo:hover{
-  background-image: url(logo-hover-01.svg);
+  background-image: url(logo_hover.svg);
 }  
 
 .logo_focus{
-  background-image: url(logo-134277-01.svg);
+  background-image: url(logo_focus.svg);
   max-width: 10vw;
   width: 200px;
   min-width:100px;
@@ -230,7 +230,7 @@ body {
   width:120px;
   border-radius: 3px;
   outline:0;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #134277; 
   color:#134277;
   font-size: 0.875rem;
@@ -1000,8 +1000,6 @@ h3{
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
 
-
-
 }
 
 
@@ -1205,6 +1203,7 @@ h3{
 
 .centertitle h3 {
   text-align: center;
+  padding:0% 10%;
 }
 
 .centertitle_block h3 {
@@ -1228,6 +1227,7 @@ margin:3% 0% 10% 0%;
 
 .centertitle h2{
   text-align:center;
+
 }
 
 .centertitle_block h2{
