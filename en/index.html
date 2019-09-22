@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width=device-width,initial-scale =1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="website.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+</head>
+<body>
+    <div class="flex">
+        <div class = "headerbox">
+            <div class="topnav" id ="myTopnav">
+                <a href="index.html" class="active">
+                    <div class = "logo_focus"></div>
+                </a>
+            </div>
+        </div>
+        
+        <div class = "headerbox rightheader";>
+            <div class="topnav" id ="myTopnav">
+                <a href="about.html">About</a>
+            </div>
+        </div>
+
+        <div class = "headerbox work_header">
+            <div class="topnav" id ="myTopnav">
+                <div class = "dropdown">    
+                    <button class = "dropbtn">
+                        <a href="work.html"> Work&nbsp; &nbsp; <i class="fa fa-caret-down"></i> </a>
+                    </button>
+                    <div class = "dropdown-content">
+                        <a href="work.html">All</a>
+                        <a href="beseye.html">Beseye</a>
+                        <a href="beseyeweb.html">Beseye Web & App</a>
+                        <a href="lsw.html">L-Somewhere</a>
+                        <a href="doit.html">Do It</a>
+                    </div>
+                </div>
+            </div>  
+          
+        </div>
+
+        <div class = "hamberger";>
+                <a href="javascript:void(0)" class="fas fa-bars" onclick="myFunction()"></a>
+        </div>
+    
+    </div>
+
+
+
+
+    <div class = "main">
+        <div class = "herotext_block">
+            <p class="herotext" >Hi, I am Chelsea Chen.<br>UIUX Designer</p>
+            <a href="work.html" target="_self" >
+                <button>Learn more</button>
+            </a>
+        </div>
+    </div>
+
+    <div class = "updown">
+        <div class = "footer">
+            <p>Copyright © 2019 ChelseaChen</p>
+        </div>
+    </div>
+
+</div>
+
+<script> 
+
+    function myFunction() {
+    var x = document.querySelectorAll("div.flex")[0];
+
+    if (x.className.indexOf('show-header') !== -1) {
+        let index = x.className.indexOf('show-header');
+        x.className = x.className.substr(0, index-1);
+    } else {
+        x.className += ' show-header';
+    }
+
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
